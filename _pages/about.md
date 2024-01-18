@@ -2,25 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Postdoctoral researcher at Oslo University Hospital, lecturer at Oslo Metropolitan University, and data science consultant.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_any.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Oslo, Norway</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm Anders, a researcher and data scientist at [Oslo University Hospital](https://www.ous-research.no/home/dahl/Group+members/22071). My work revolves around a variety of research projects, with a current focus on COVID-19, clinical trials, and epidemiology. With a background in microbiology and bioinformatics, I bring a unique perspective to my research. My journey has led me through diverse roles, including two years as an indoor climate and construction consultant before my current position. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Beyond my research, I'm passionate about education. I'm a lecturer at [Oslo Metropolitan University](https://www.oslomet.no/en), where I teach MSc. courses on indoor climate, sanitation, and health for engineering students at the [Faculty of Technology, Art and Design](https://www.oslomet.no/en/about/tkd). I also host workshops on data science and academic writing for PhD students at the [Faculty of Health Sciences](https://www.oslomet.no/en/about/hv).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Additionally, I've taken on consulting and industry projects, guiding clients through data management and analysis challenges.
+
+Feel free to reach out by email if you have questions or potential project ideas.
+
+For insights into my career path, experiences, and extracurricular activities, explore the "CV" section. You can also find some of my talks and lectures in the "Talks" section.
+
+Thank you for visiting my page! 
