@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral researcher at Oslo University Hospital, lecturer at Oslo Metropolitan University, and data science consultant.
+subtitle: Postdoctoral researcher, lecturer, and data science consultant
 
 profile:
   align: right
