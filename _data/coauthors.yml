@@ -1,24 +1,25 @@
-"soraas":
-  - firstname: ["Arne", "A.", "A. L.", "Arne Lund", "A", "AL"]
-    url: https://scholar.google.no/citations?user=PaYwtJYAAAAJ&hl=no 
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"dahl":
-  - firstname: ["John", "J.", "J. A.", "John Arne", "J", JA"]
-    url: https://scholar.google.no/citations?user=mQuR1osAAAAJ&hl=no
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"charnock":
-  - firstname: ["Colin", "C.", "C"]
-    url: https://scholar.google.no/citations?user=uJ8xNTkAAAAJ&hl=no
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"brunvoll":
-  - firstname: ["Sonja", "Sonja Hellegjerde", "S.", "S. H." "SH", "S"]
-    url: https://scholar.google.no/citations?user=0Vji3SAAAAAJ&hl=no
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
 "przibram":
   - firstname: ["Karl"]
     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-    
 
 "schrodinger":
   - firstname: ["Erwin"]
@@ -31,4 +32,3 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
-
