@@ -123,7 +123,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: ANYthings # blog_name will be displayed in your blog page
-blog_description: Thougths and events by ANYthings
+blog_description: Thougths and events
 permalink: /blog/:year/:title/
 
 # Pagination
