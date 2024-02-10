@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 --- 
-#### About me:
+#### About me
 Hello! I'm Anders, a researcher and data scientist at [Oslo University Hospital](https://www.ous-research.no/home/dahl/Group+members/22071). 
 
 My work revolves around a variety of research projects, with a current focus on COVID-19, clinical trials, and epidemiology. With a background in microbiology and bioinformatics, I bring a unique perspective to my research. My journey has led me through diverse roles, including two years as an indoor climate and construction consultant before my current position. 
