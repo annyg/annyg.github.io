@@ -1,13 +1,13 @@
 ---
 layout: page
 title: projects and consulting
-subtitle: A growing collection of your cool projects.
+subtitle: An overview of various project I am involved in.
 use-site-title: true
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: An overview of various project I am involved in.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [academic, ANYthings consulting, fun]
 horizontal: false
 ---
 
