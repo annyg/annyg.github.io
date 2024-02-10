@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Announcement -- Publication in The BMJ
+title: News -- Publication in The BMJ
 date: 2022-09-07 12:00:00
-description: Publication in The BMJ
+description: Cod liver oil for prevention of COVID-19 (CLOC-study) published in The BMJ
 tags: publication bmj ncc cloc
-categories: announcement_publication
+categories: news_publication
 ---
 
-#### Announcement
-I am happy to announce that our study investigating wether D-vitamin and cod liver oil supplementation can prevent SARS-CoV-2 infection, serious covid-19, or other acute respiratory infections in adults in Norway. 
+#### News
+I am happy to announce that our study investigating wether D-vitamin and cod liver oil supplementation can prevent SARS-CoV-2 infection, serious covid-19, or other acute respiratory infections in adults in Norway has been published. 
 
 The study is published in [The BMJ](https://www.bmj.com/content/378/bmj-2022-071245.long).
 
