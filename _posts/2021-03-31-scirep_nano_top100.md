@@ -1,6 +1,6 @@
 ---
 layout: post
-title: News -- Scientific Reports paper in Top 100 collection
+title: Scientific Reports paper in Top 100 collection
 date: 2021-03-31 12:00:00
 description: Scientific Reports paper in Top 100 collection for 2020
 tags: publication scirep phd microbiome award
@@ -13,4 +13,3 @@ I am very ecited to share that happy to announce that our study published in [Sc
 The paper has been added to the [**Top 100 in Microbiology**](https://www.nature.com/collections/hjjcbjfhhc) collection, which showcases the top 100 most downloaded microbiology papers published in Scientific Reports in 2020. 
 
 This study was part of my PhD project and I am very happy to see it being recognized and downloaded by the scientific community. 
-publication_preview/
