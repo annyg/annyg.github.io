@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: NCC Study
+description: The Norwegian COVID-19 Cohort Study
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: academic
 related_publications: true
 ---
 

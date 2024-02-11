@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Indoor Microbiomes
+description: Investigating indoor environment microbiomes
+img: assets/img/publication_preview/scirep_nano.png
+#redirect: https://unsplash.com
+importance: 3
+category: academic
 ---
 
 Every project has a beautiful feature showcase page.
