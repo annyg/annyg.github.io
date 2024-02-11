@@ -22,7 +22,7 @@ Hello! I'm Anders, a researcher and data scientist at [Oslo University Hospital]
 
 My work revolves around a variety of research projects, with a current focus on COVID-19, clinical trials, and epidemiology. With a background in microbiology and bioinformatics, I bring a unique perspective to my research. My journey has led me through diverse roles, including two years as an indoor climate and construction consultant before my current position. 
 
-Beyond my research, I'm passionate about education. I'm a lecturer at [Oslo Metropolitan University](https://www.oslomet.no/en), where I teach MSc. courses on indoor climate, sanitation, and health for engineering students at the [Faculty of Technology, Art and Design](https://www.oslomet.no/en/about/tkd). I also host workshops on data science and academic writing for PhD students at the [Faculty of Health Sciences](https://www.oslomet.no/en/about/hv).
+Beyond my research, I'm passionate about education. I'm a lecturer at [Oslo Metropolitan University](https://www.oslomet.no/en), where I lecture in MSc. courses on indoor climate, sanitation, and health for engineering students at the [Faculty of Technology, Art and Design](https://www.oslomet.no/en/about/tkd). I also host workshops on data science and academic writing for PhD students at the [Faculty of Health Sciences](https://www.oslomet.no/en/about/hv).
 
 Additionally, I've taken on consulting and industry projects, guiding clients through data management and analysis challenges.
 

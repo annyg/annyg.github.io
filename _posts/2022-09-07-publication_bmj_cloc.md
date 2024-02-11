@@ -8,7 +8,7 @@ categories: news_publication
 ---
 
 #### News
-I am happy to announce that our study investigating wether D-vitamin and cod liver oil supplementation can prevent SARS-CoV-2 infection, serious covid-19, or other acute respiratory infections in adults in Norway has been published. 
+I am happy to announce that our study investigating whether D-vitamin and cod liver oil supplementation can prevent SARS-CoV-2 infection, serious covid-19, or other acute respiratory infections in adults in Norway has been published. 
 
 The study is published in [The BMJ](https://www.bmj.com/content/378/bmj-2022-071245.long).
 
