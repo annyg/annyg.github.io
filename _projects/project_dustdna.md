@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: DNA detection of dust microbes
+description: Developing threshold levels for determining unhealthy levels of microorganisms in house dust 
+#img: assets/img/1.jpg
 importance: 3
-category: other
+category: ANYthings consulting
 ---
 
 Every project has a beautiful feature showcase page.

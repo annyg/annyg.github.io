@@ -1,7 +1,7 @@
 ---
 layout: post
-title: News -- Publication in Scientific Reports
-date: 2020-02-30 12:00:00
+title: News -- Publication in Microbiome
+date: 2018-02-30 12:00:00
 description: 16S sequencing using Nanopore and Illumina published in Scientific Reports
 tags: publication scirep phd microbiome
 categories: news publication

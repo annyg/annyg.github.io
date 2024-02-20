@@ -4,7 +4,7 @@ title: News -- Publication in The BMJ
 date: 2022-09-07 12:00:00
 description: Cod liver oil for prevention of COVID-19 (CLOC-study) published in The BMJ
 tags: publication bmj ncc cloc covid19 vitaminD
-categories: news_publication
+categories: news publication
 ---
 
 ### News

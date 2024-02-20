@@ -8,9 +8,7 @@ importance: 3
 category: academic
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Through the use of next-generation DNA-sequencing technologies, I investigated the composition of microbial communities (microbiomes) found in samples collected from Norwegian kindergartens and nursing homes. This gave insight into how building design and intended use of buildings shape the microbial communities that we find in the built environment. 
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

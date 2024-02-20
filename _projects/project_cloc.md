@@ -8,9 +8,8 @@ category: academic
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Responsible for data management, data coordination and data analysis for Cod Liver Oil for Covid-19 Prevention Study (CLOC-study) led by Dr. Arne Søraas. The CLOC-study is a randomized, parallel-group treatment, quadruple masked, two-arm study to assess the effectiveness of cod liver oil compared to placebo in the prevention of COVID-19 and airway infections in healthy adults. The study has approx. 35 000 participants. (ClinicalTrials.gov Identifier: NCT04609423)
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
