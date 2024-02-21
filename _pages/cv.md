@@ -10,6 +10,7 @@ description: PDF version of public CV.
 #toc:
 #  sidebar: left
 ---
+
 <header class="post-header">
     <h1 class="post-title">My CVs</h1>
     <p class="post-description">A PDF version of my CV.</p>
