@@ -7,7 +7,7 @@ permalink: /projects/
 description: An overview of various project I am involved in.
 nav: true
 nav_order: 3
-display_categories: [academic, ANYthings consulting, fun]
+display_categories: [academic, ANYthings]
 horizontal: false
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: DNA detection of dust microbes
-description: Developing threshold levels for determining unhealthy levels of microorganisms in house dust 
+description: Developing threshold levels for determining unhealthy levels of microorganisms in house dust
 #img: assets/img/1.jpg
 importance: 3
-category: ANYthings consulting
+category: ANYthings
 ---
 
 Every project has a beautiful feature showcase page.

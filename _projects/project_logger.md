@@ -4,7 +4,7 @@ title: r-package for logger data
 description: Development of r-package for pocessing of climate logging data
 img:
 importance: 2
-category: ANYthings consulting
+category: ANYthings
 ---
 
 Every project has a beautiful feature showcase page.

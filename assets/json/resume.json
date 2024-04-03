@@ -7,61 +7,61 @@
       "countryCode": "NO"
     },
     "email": "anders@anythings.no",
-    "url": "https://www.anythings.no",
-    "skills": [
-      {
-        "name": "Research",
-        "keywords": ["microbiology", "epidemiology", "DNA Sequencing", "immunology", "genetics", "big data", "building science"]
-      },
-      {
-        "name": "Informatics",
-        "keywords": ["R", "RStudio", "bash/Linux", "Python", "QIIME", "SPSS", "Git", "Ubuntu", "Windows"]
-      },
-      {
-        "name": "Laboratory",
-        "keywords": ["molecular laboratory techniques", "NGS DNA library prep", "Nanopore MinION", "microbial culturing"]
-      },
-      {
-        "name": "Teaching",
-        "keywords": ["lecturing", "supervision", "lab management", "data management", "data infrastructure", "data analysis"]
-      },
-      {
-        "name": "Other",
-        "keywords": ["data stewardship", "sensitive data", "public speaking", "science communication", "building management"]
-      }
-    ]
+    "url": "https://www.anythings.no"
   },
+  "skills": [
+    {
+      "name": "Research",
+      "keywords": ["microbiology", "epidemiology", "DNA Sequencing", "immunology", "genetics", "big data", "building science"]
+    },
+    {
+      "name": "Informatics",
+      "keywords": ["R", "RStudio", "bash/Linux", "Python", "QIIME", "SPSS", "Git", "Ubuntu", "Windows"]
+    },
+    {
+      "name": "Laboratory",
+      "keywords": ["molecular laboratory techniques", "NGS DNA library prep", "Nanopore MinION", "microbial culturing"]
+    },
+    {
+      "name": "Teaching",
+      "keywords": ["lecturing", "supervision", "lab management", "data management", "data infrastructure", "data analysis"]
+    },
+    {
+      "name": "Other",
+      "keywords": ["data stewardship", "sensitive data", "public speaking", "science communication", "building management"]
+    }
+  ],
   "work": [
     {
-      "company": "Oslo University Hospital (OUS)",
+      "name": "Oslo University Hospital (OUS)",
       "position": "Researcher / Postdoc",
       "startDate": "2021",
       "endDate": "Current",
       "summary": "Researcher in John Arne Dahl's research group Genome and Epigenome Regulation in Embryo Development, Ageing and Disease at the Division of Laboratory Medicine, Department of Microbiology at OUS. Responsible for data management, data coordination and data analysis for Risk Factors for Community- and Workplace Transmission of COVID-19 Study (The Norwegian Covid-19 Cohort Study), and Cod Liver Oil for Covid-19 Prevention Study (CLOC-study) led by Dr. Arne Søraas."
     },
     {
-      "company": "ANYthings DATA",
+      "name": "ANYthings DATA",
       "position": "Consultant and founder",
       "startDate": "2022",
       "endDate": "Current",
       "summary": "Providing mentorship and consulting services related to data management, data analysis, and data handling with focus on health-, biological-, and big-data."
     },
     {
-      "company": "Oslo Metropolitan University (OsloMet)",
+      "name": "Oslo Metropolitan University (OsloMet)",
       "position": "Guest lecturer",
       "startDate": "2017",
       "endDate": "Current",
       "summary": "Guest lecturer at the Faculty of Technology, Art and Design and the Faculty of Health Sciences."
     },
     {
-      "company": "Mycoteam AS",
+      "name": "Mycoteam AS",
       "position": "Consultant",
       "startDate": "2018",
       "endDate": "2021",
       "summary": "Consultant on topics related to health, indoor climate (microbiology, particles, asbestos, noise), construction (moisture damage, rot damages, rehabilitation), and data analysis. Advising corporate and private clients."
     },
     {
-      "company": "Department of Civil Engineering and Energy Technology, Faculty of Technology, Art and Design, OsloMet",
+      "name": "Faculty of Technology, Art and Design, OsloMet",
       "position": "PhD Candidate",
       "startDate": "2012",
       "endDate": "2017",
