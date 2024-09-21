@@ -4,7 +4,7 @@ title: INS NYC 2024 Conference
 date: 2024-02-19 12:00:00
 description: Experiences at the INS NYC 2024 Conference
 tags: conference travel covid19 ncc
-categories: blog conference 
+categories: blog conference
 ---
 
 ### My Experience at the INS NYC 2024 Conference
