@@ -12,13 +12,13 @@ output:
     preserve_yaml: true
 always_allow_html: true
 knit: (function(inputFile, encoding) {
-    rmarkdown::render(inputFile,
-                      encoding = encoding,
-                      output_file = file.path(paste0(
-                                                  "../annyg.github.io/_drafts/posts/",
-                                                  Sys.Date(),'-', substr(basename(inputFile), 1, nchar(basename(inputFile)) - 4),
-                                                  '.md'
-                                                  )))})
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_file = file.path(paste0(
+  "../annyg.github.io/_drafts/posts/",
+  Sys.Date(),'-', substr(basename(inputFile), 1, nchar(basename(inputFile)) - 4),
+  '.md'
+  )))})
 ---
 
 # Background
@@ -121,7 +121,7 @@ converted my bibtex bibliography to a csv-file using the online [BibTeX
 to CSV converter](https://www.bibtex.com/c/bibtex-to-csv-converter/)
 provided by bibtex.com.
 
-``` r
+```r
 library(tidyverse)
 ```
 
@@ -130,17 +130,17 @@ library(tidyverse)
     ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
     ## ✔ ggplot2   3.5.0     ✔ tibble    3.2.1
     ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.1     
+    ## ✔ purrr     1.0.1
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
     ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 
-``` r
+```r
 library(hrbrthemes)
 ```
 
-``` r
+```r
 list_of_files <- list.files(path = "raw_data/sjr/archive/ScimagoJR/",
                             recursive = TRUE,
                             pattern = "\\.csv$",
@@ -150,7 +150,7 @@ combined_data <- map_df(list_of_files, read.csv) %>%
   janitor::clean_names()
 ```
 
-``` r
+```r
 combined_data <- combined_data %>%
   mutate(across(starts_with("total_docs") & matches("\\d$"), ~ case_when(
     !is.na(.) ~ as.integer(str_extract(cur_column(), "\\d+$")),
@@ -162,7 +162,7 @@ pubs <- combined_data %>%
   select(title) %>%
   distinct()
 
-combined_data <- combined_data %>% 
+combined_data <- combined_data %>%
   arrange(desc(sjr)) %>%
   group_by(year) %>%
   mutate(rank_tot = row_number()) %>%
@@ -190,7 +190,7 @@ head(combined_data)
     ## #   publisher <chr>, coverage <chr>, categories <chr>, areas <chr>, year <chr>,
     ## #   rank_tot <int>, rank_area <int>, areas2 <chr[,10]>
 
-``` r
+```r
 publications <- read_csv("raw_data/sjr/references.csv") %>%
   janitor::clean_names() %>%
   mutate(title = case_when(
@@ -218,29 +218,29 @@ publications <- read_csv("raw_data/sjr/references.csv") %>%
     ## chr  (17): Item type, Authors, Title, Journal, Pages, Date published, ISSN, ...
     ## dbl   (4): Publication year, Volume, Issue, PMID
     ## date  (1): Date accessed
-    ## 
+    ##
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
-``` r
+```r
 head(publications)
 ```
 
     ## # A tibble: 6 × 23
     ##   item_type       authors      title journal publication_year volume issue pages
     ##   <chr>           <chr>        <chr> <chr>              <dbl>  <dbl> <dbl> <chr>
-    ## 1 Journal Article Nygaard AB,… Scie… Sci Rep             2020     10     1 3209 
-    ## 2 Journal Article Ellingjord-… BMC … BMC In…             2022     22     1 252  
-    ## 3 Journal Article Garcia-Gall… Scie… Sci Da…             2022      9     1 454  
-    ## 4 Journal Article Nygaard AB,… Micr… Microb…             2018      6     1 159  
-    ## 5 Journal Article Søraas A,Gr… Fron… Fronti…             2022     13    NA <NA> 
+    ## 1 Journal Article Nygaard AB,… Scie… Sci Rep             2020     10     1 3209
+    ## 2 Journal Article Ellingjord-… BMC … BMC In…             2022     22     1 252
+    ## 3 Journal Article Garcia-Gall… Scie… Sci Da…             2022      9     1 454
+    ## 4 Journal Article Nygaard AB,… Micr… Microb…             2018      6     1 159
+    ## 5 Journal Article Søraas A,Gr… Fron… Fronti…             2022     13    NA <NA>
     ## 6 Journal Article Brunvoll SH… BMJ,… BMJ                 2022    378    NA e071…
     ## # ℹ 15 more variables: date_published <chr>, date_accessed <date>, issn <chr>,
     ## #   issn_alt <chr>, ur_ls <chr>, doi <chr>, pmid <dbl>, pmc_id <chr>,
     ## #   abstract <chr>, keywords <chr>, notes <chr>, short_title <chr>,
     ## #   copyright <chr>, language <chr>, year <chr>
 
-``` r
+```r
 any_stat <- combined_data %>%
   semi_join(publications, by = "title") %>%
   full_join(publications, by = c("year", "title")) %>%
@@ -262,13 +262,13 @@ any_pubs <- any_stat %>%
   drop_na(item_type)
 ```
 
-``` r
+```r
 fig_any <- any_stat %>%
   ggplot(aes(x = year, y = sjr, color = title)) +
   geom_hline(yintercept = 1, linetype = "longdash", color = "darkgrey") +
   geom_line(linewidth = 0.9, alpha = 0.9) +
   geom_point(data = any_pubs, size = 3, color = "grey", alpha = 0.7)  +
-  ggsci::scale_color_d3("category20") + 
+  ggsci::scale_color_d3("category20") +
   scale_x_continuous(limits = c(1999,2040)) +
   coord_cartesian(clip="off") +
   labs(
@@ -287,7 +287,7 @@ fig_any +
 
 ![](/assets/img/rmdposts/unnamed-chunk-6-1.png)<!-- -->
 
-``` r
+```r
 fig_any_area <- fig_any +
   scale_x_continuous(limits = c(1999,2050)) +
   geom_text(data = any_label, aes(label=title), hjust = -0.1) +
@@ -297,7 +297,7 @@ fig_any_area <- fig_any +
     ## Scale for x is already present.
     ## Adding another scale for x, which will replace the existing scale.
 
-``` r
+```r
 flush_ticks(fig_any_area)
 ```
 
@@ -306,7 +306,7 @@ flush_ticks(fig_any_area)
 
 ![](/assets/img/rmdposts/unnamed-chunk-7-1.png)<!-- -->
 
-``` r
+```r
 fig_any_publ <- fig_any +
   scale_x_continuous(limits = c(1999,2050)) +
   geom_text(data = any_label, aes(label=title), hjust = -0.1) +
@@ -316,13 +316,13 @@ fig_any_publ <- fig_any +
     ## Scale for x is already present.
     ## Adding another scale for x, which will replace the existing scale.
 
-``` r
+```r
 fig_any_publ
 ```
 
 ![](/assets/img/rmdposts/unnamed-chunk-8-1.png)<!-- -->
 
-``` r
+```r
 fig_any_regi <- fig_any +
   scale_x_continuous(limits = c(1999,2050)) +
   geom_text(data = any_label, aes(label=title), hjust = -0.1) +
@@ -332,7 +332,7 @@ fig_any_regi <- fig_any +
     ## Scale for x is already present.
     ## Adding another scale for x, which will replace the existing scale.
 
-``` r
+```r
 fig_any_regi
 ```
 

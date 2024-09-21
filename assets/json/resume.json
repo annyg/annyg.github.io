@@ -12,59 +12,23 @@
   "skills": [
     {
       "name": "Research",
-      "keywords": [
-        "microbiology", 
-        "epidemiology", 
-        "DNA Sequencing", 
-        "immunology", 
-        "genetics", 
-        "big data", 
-        "building science"
-      ]
+      "keywords": ["microbiology", "epidemiology", "DNA Sequencing", "immunology", "genetics", "big data", "building science"]
     },
     {
       "name": "Informatics",
-      "keywords": [
-        "R", 
-        "RStudio", 
-        "bash/Linux", 
-        "Python", 
-        "QIIME", 
-        "SPSS", 
-        "Git", 
-        "Ubuntu", 
-        "Windows"
-      ]
+      "keywords": ["R", "RStudio", "bash/Linux", "Python", "QIIME", "SPSS", "Git", "Ubuntu", "Windows"]
     },
     {
       "name": "Laboratory",
-      "keywords": [
-        "molecular laboratory techniques", 
-        "NGS DNA library prep", 
-        "Nanopore MinION", 
-        "microbial culturing"
-      ]
+      "keywords": ["molecular laboratory techniques", "NGS DNA library prep", "Nanopore MinION", "microbial culturing"]
     },
     {
       "name": "Teaching",
-      "keywords": [
-        "lecturing", 
-        "supervision", 
-        "lab management", 
-        "data management", 
-        "data infrastructure", 
-        "data analysis"
-      ]
+      "keywords": ["lecturing", "supervision", "lab management", "data management", "data infrastructure", "data analysis"]
     },
     {
       "name": "Other",
-      "keywords": [
-        "data stewardship", 
-        "sensitive data", 
-        "public speaking", 
-        "science communication", 
-        "building management"
-      ]
+      "keywords": ["data stewardship", "sensitive data", "public speaking", "science communication", "building management"]
     }
   ],
   "work": [

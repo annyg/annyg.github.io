@@ -12,18 +12,18 @@ output:
     preserve_yaml: true
 always_allow_html: true
 knit: (function(inputFile, encoding) {
-    rmarkdown::render(inputFile,
-                      encoding = encoding,
-                      output_file = file.path(paste0(
-                                                  "../annyg.github.io/_drafts/posts/",
-                                                  Sys.Date(),'-', substr(basename(inputFile), 1, nchar(basename(inputFile)) - 4),
-                                                  '.md'
-                                                  )))})
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_file = file.path(paste0(
+  "../annyg.github.io/_drafts/posts/",
+  Sys.Date(),'-', substr(basename(inputFile), 1, nchar(basename(inputFile)) - 4),
+  '.md'
+  )))})
 ---
 
 ## Load the briefparser package
 
-``` r
+```r
 library(briefparser)
 ```
 
@@ -45,7 +45,7 @@ library(briefparser)
 
 ## Create dummy data
 
-``` r
+```r
 dummy_data <- generate_brief_a_dummy_data(n = 1000)
 
 head(dummy_data)
@@ -133,7 +133,7 @@ head(dummy_data)
 
 Age and define the 75
 
-``` r
+```r
 processed_data <- dummy_data %>%
   generate_age_group_10(age = age)
 ```
@@ -142,11 +142,11 @@ processed_data <- dummy_data %>%
 
 for all scales and indices.
 
-``` r
+```r
 processed_data <- processed_data %>%
   compute_brief_scores_raw() %>%
   select(
-    contains("score_raw"), 
+    contains("score_raw"),
     everything()
     )
 
@@ -254,11 +254,11 @@ head(processed_data)
 
 ## Compute T-scores
 
-``` r
+```r
 processed_data <- processed_data %>%
   compute_brief_scores_t() %>%
   select(
-    contains("score_t"), 
+    contains("score_t"),
     everything()
     )
 
@@ -387,11 +387,11 @@ head(processed_data)
 
 ## Compute cutoff-scores
 
-``` r
+```r
 processed_data <- processed_data %>%
   compute_brief_scores_cutoff() %>%
   select(
-    contains("_cutoff"), 
+    contains("_cutoff"),
     everything()
     )
 
@@ -548,11 +548,11 @@ head(processed_data)
 
 ## Compute validity scores
 
-``` r
+```r
 processed_data <- processed_data %>%
   compute_brief_validity_scores() %>%
   select(
-    contains("validity_"), 
+    contains("validity_"),
     everything()
     )
 
@@ -723,7 +723,7 @@ head(processed_data)
 
 ## Complete workflow example
 
-``` r
+```r
 analysis_data <- dummy_data %>%
   generate_age_group_10(age = age) %>%
   compute_brief_scores_raw() %>%
