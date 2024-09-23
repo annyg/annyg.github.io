@@ -1,21 +1,18 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Charnock":
+  - firstname: ["Colin", "C.", "C"]
+    url: https://scholar.google.no/citations?user=uJ8xNTkAAAAJ&hl=no
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Søraas":
+  - firstname: ["Arne", "A.", "A"]
+    url: https://scholar.google.no/citations?user=PaYwtJYAAAAJ&hl=no
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Brunvoll":
+  - firstname: ["Sonja", "S.", "Sonja H.", "S. H.", "Sonja Hjellegjerde"]
+    url: https://scholar.google.no/citations?user=0Vji3SAAAAAJ&hl=no
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Dahl":
+  - firstname: ["John Arne", "John A.", "J. A."]
+    url: https://scholar.google.no/citations?user=mQuR1osAAAAJ&hl=no
 
 "przibram":
   - firstname: ["Karl"]

@@ -2,7 +2,7 @@
 layout: page
 title: NCC Study
 description: The Norwegian COVID-19 Cohort Study
-img: assets/img/12.jpg
+img: assets/img/koronastudien.png
 importance: 1
 category: academic
 related_publications: true
