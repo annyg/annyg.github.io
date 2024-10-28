@@ -27,7 +27,7 @@ My work revolves around a variety of research projects, with a current focus on 
 
 Beyond my research, I'm passionate about education. I'm a lecturer at [Oslo Metropolitan University](https://www.oslomet.no/en), where I lecture in MSc. courses on indoor climate, sanitation, and health for engineering students at the [Faculty of Technology, Art and Design](https://www.oslomet.no/en/about/tkd). I also host workshops on data science and academic writing for PhD students at the [Faculty of Health Sciences](https://www.oslomet.no/en/about/hv).
 
-Additionally, I've taken on consulting and industry projects, guiding clients through data management and analysis challenges.
+Though my company **ANYthings**, I've taken on consulting and industry projects, guiding clients through data management and analysis challenges. To learn more about my projects, both academically and as a consultant, please explore the "Projects and consulting" section.
 
 For insights into my career path, experiences, and extracurricular activities, explore the "CV" section. You can also find some of my talks and lectures in the "Talks" section.
 
