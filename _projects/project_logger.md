@@ -1,7 +1,7 @@
 ---
 layout: page
 title: r-package for logger data
-description: Development of r-package for pocessing of climate logging data
+description: Development of r-package for processing of climate logging data
 img:
 importance: 2
 category: ANYthings
