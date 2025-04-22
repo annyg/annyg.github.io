@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral researcher, lecturer, and data science consultant
+subtitle: Biomedical researcher, lecturer, and data science consultant
 
 profile:
   align: right
