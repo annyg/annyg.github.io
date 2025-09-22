@@ -18,7 +18,7 @@ categories: news op-ed
 
 ### News
 
-We recently published an op-ed in *Tidsskrift for Norsk psykologforening*: **“Feilaktig fremstilling av kunnskapsgrunnlaget for post-covid condition (long covid)”**.
+We recently published an op-ed in _Tidsskrift for Norsk psykologforening_: **“Feilaktig fremstilling av kunnskapsgrunnlaget for post-covid condition (long covid)”**.
 
 In the article, we respond to claims that long covid is primarily a psychosomatic condition treatable with so-called Mind-Body Reprogramming Therapy. We emphasize that this portrayal misrepresents the scientific evidence. More than **17,000 studies worldwide** now show that long covid is a **multi-organ, systemic disease** with clear biological underpinnings, including immunological, cellular, and physiological changes across multiple organ systems.
 

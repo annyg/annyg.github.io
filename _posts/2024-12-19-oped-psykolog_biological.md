@@ -18,7 +18,7 @@ categories: news op-ed
 
 ### News
 
-We recently published an op-ed in *Tidsskrift for Norsk psykologforening*: **“Feilaktig fremstilling av kunnskapsgrunnlaget for post-covid condition (long covid)”**. Tidsskrift for Norsk psykologforening (often shortened to Psykologtidsskriftet) is the official journal of the Norwegian Psychological Association. It is a leading professional publication for psychologists in Norway, publishing research articles, clinical reports, debate pieces, and opinion columns.
+We recently published an op-ed in _Tidsskrift for Norsk psykologforening_: **“Feilaktig fremstilling av kunnskapsgrunnlaget for post-covid condition (long covid)”**. Tidsskrift for Norsk psykologforening (often shortened to Psykologtidsskriftet) is the official journal of the Norwegian Psychological Association. It is a leading professional publication for psychologists in Norway, publishing research articles, clinical reports, debate pieces, and opinion columns.
 
 In the article, we respond to claims that long covid is primarily a psychosomatic condition treatable with so-called Mind-Body Reprogramming Therapy. We emphasize that this portrayal misrepresents the scientific evidence. More than **17,000 studies worldwide** now show that long covid is a **multi-organ, systemic disease** with clear biological underpinnings, including immunological, cellular, and physiological changes across multiple organ systems.
 
