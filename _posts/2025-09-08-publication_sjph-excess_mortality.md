@@ -17,11 +17,11 @@ These findings suggest that Norway’s mortality decline, which had been steady 
 
 We hope this study helps shed light on the ongoing health impacts of the pandemic and contributes to discussions on future public health strategies.
 
-The paper is published in [Scandinavian Journal of Public Health](<https://journals.sagepub.com/doi/10.1177/14034948251371830>).
+The paper is published in [Scandinavian Journal of Public Health](https://journals.sagepub.com/doi/10.1177/14034948251371830).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/publication_preview/sjph_excess.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/publication_preview/sjph_excess.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
