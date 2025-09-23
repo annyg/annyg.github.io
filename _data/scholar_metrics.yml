@@ -1,0 +1,27 @@
+# _data/scholar_metrics.yml
+name: "Anders Benteson Nygaard"
+affiliation: "Oslo University Hospital (OUS)"
+source: "Google Scholar"
+profile_url: "https://scholar.google.com/citations?user=_YPmV_0AAAAJ&hl=en"  # optional
+query_date: "2025-09-23 10:56:06"
+
+totals:
+  papers: 27
+  citations: 495
+  years_active: 13
+  cites_per_year: 38.08
+  cites_per_paper: 18.33
+  first_year: 2012
+  last_year: 2025
+
+indexes:
+  h_index: 10
+  g_index: 22
+  hc_index: 13
+  hI_index: 1.85
+  hI_norm: 5
+  AWCR: 156.94
+  AW_index: 12.53
+  AWCRpA: 30.29
+  e_index: 18.57
+  hm_index: 3.29

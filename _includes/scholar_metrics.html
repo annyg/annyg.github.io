@@ -1,0 +1,68 @@
+<!-- _includes/scholar-metrics.html -->
+<div class="scholar-metrics card my-4">
+  <div class="card-body">
+    <div class="d-flex flex-wrap align-items-center justify-content-between mb-2">
+      <div>
+        <h3 class="m-0">Google Scholar metrics</h3>
+        <small class="text-muted">
+          {{ site.data.scholar_metrics.name }} — {{ site.data.scholar_metrics.affiliation }}
+          {% if site.data.scholar_metrics.query_date %} · updated {{ site.data.scholar_metrics.query_date }}{% endif %}
+        </small>
+      </div>
+      {% if site.data.scholar_metrics.profile_url %}
+      <a class="btn btn-sm btn-outline-primary" href="{{ site.data.scholar_metrics.profile_url }}" target="_blank" rel="noopener">
+        View profile
+      </a>
+      {% endif %}
+    </div>
+
+    <!-- Top line stats -->
+    <div class="row">
+      <div class="col-6 col-md-3 mb-3">
+        <div class="metric">
+          <div class="metric-label">Total papers</div>
+          <div class="metric-value">{{ site.data.scholar_metrics.totals.papers }}</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <div class="metric">
+          <div class="metric-label">Total citations</div>
+          <div class="metric-value">{{ site.data.scholar_metrics.totals.citations }}</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <div class="metric">
+          <div class="metric-label">Citations / year</div>
+          <div class="metric-value">{{ site.data.scholar_metrics.totals.cites_per_year }}</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <div class="metric">
+          <div class="metric-label">Citations / paper</div>
+          <div class="metric-value">{{ site.data.scholar_metrics.totals.cites_per_paper }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Index grid -->
+    <div class="row">
+      {% assign idx = site.data.scholar_metrics.indexes %}
+      {% assign items = "h_index|h-index,g_index|g-index,hc_index|hc-index,hI_index|hI-index,hI_norm|hI-norm,AWCR|AWCR,AW_index|AW-index,AWCRpA|AWCR/pA,e_index|e-index,hm_index|hm-index" | split: "," %}
+      {% for it in items %}
+        {% assign pair = it | split: "|" %}
+        {% assign key = pair[0] %}
+        {% assign label = pair[1] %}
+        <div class="col-6 col-md-3 mb-2">
+          <div class="metric metric-small">
+            <div class="metric-label">{{ label }}</div>
+            <div class="metric-value">{{ idx[key] }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="text-muted mt-2" style="font-size:.9rem;">
+      Coverage: {{ site.data.scholar_metrics.totals.first_year }}–{{ site.data.scholar_metrics.totals.last_year }} · Source: {{ site.data.scholar_metrics.source }}
+    </div>
+  </div>
+</div>
