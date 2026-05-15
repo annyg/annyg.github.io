@@ -10,7 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% include scholar-metrics.html %}
+{% include scholar_metrics.liquid %}
 
 {% bibliography %}
 

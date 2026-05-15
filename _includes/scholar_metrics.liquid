@@ -1,4 +1,4 @@
-<!-- _includes/scholar-metrics.html -->
+<!-- _includes/scholar_metrics.liquid -->
 <div class="scholar-metrics card my-4">
   <div class="card-body">
     <div class="d-flex flex-wrap align-items-center justify-content-between mb-2">
@@ -10,9 +10,7 @@
         </small>
       </div>
       {% if site.data.scholar_metrics.profile_url %}
-      <a class="btn btn-sm btn-outline-primary" href="{{ site.data.scholar_metrics.profile_url }}" target="_blank" rel="noopener">
-        View profile
-      </a>
+        <a class="btn btn-sm btn-outline-primary" href="{{ site.data.scholar_metrics.profile_url }}" target="_blank" rel="noopener"> View profile </a>
       {% endif %}
     </div>
 
@@ -47,9 +45,11 @@
     <!-- Index grid -->
     <div class="row">
       {% assign idx = site.data.scholar_metrics.indexes %}
-      {% assign items = "h_index|h-index,g_index|g-index,hc_index|hc-index,hI_index|hI-index,hI_norm|hI-norm,AWCR|AWCR,AW_index|AW-index,AWCRpA|AWCR/pA,e_index|e-index,hm_index|hm-index" | split: "," %}
+      {% assign items = 'h_index|h-index,g_index|g-index,hc_index|hc-index,hI_index|hI-index,hI_norm|hI-norm,AWCR|AWCR,AW_index|AW-index,AWCRpA|AWCR/pA,e_index|e-index,hm_index|hm-index'
+        | split: ','
+      %}
       {% for it in items %}
-        {% assign pair = it | split: "|" %}
+        {% assign pair = it | split: '|' %}
         {% assign key = pair[0] %}
         {% assign label = pair[1] %}
         <div class="col-6 col-md-3 mb-2">
@@ -62,7 +62,8 @@
     </div>
 
     <div class="text-muted mt-2" style="font-size:.9rem;">
-      Coverage: {{ site.data.scholar_metrics.totals.first_year }}–{{ site.data.scholar_metrics.totals.last_year }} · Source: {{ site.data.scholar_metrics.source }}
+      Coverage: {{ site.data.scholar_metrics.totals.first_year }}–{{ site.data.scholar_metrics.totals.last_year }} · Source:
+      {{ site.data.scholar_metrics.source }}
     </div>
   </div>
 </div>

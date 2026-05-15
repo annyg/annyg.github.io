@@ -10,3 +10,5 @@ Gemfile.lock
 node_modules/
 vendor
 
+# Claude Code guidance — local only
+CLAUDE.md

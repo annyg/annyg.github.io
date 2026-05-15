@@ -9,7 +9,7 @@ categories: news publication
 
 ### News
 
-I am excited to share our study investigating the impact of SARS-CoV-2 infections on executive functioning in a large cohort of 8000 participants. The study is published in [Brain, Behavior, & Immunity - Health](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S2666354624001352).
+I am excited to share our study investigating the impact of SARS-CoV-2 infections on executive functioning in a large cohort of 8000 participants. The study is published in [Brain, Behavior, & Immunity - Health](https://www.sciencedirect.com/science/article/pii/S2666354624001352).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,7 +20,7 @@ I am excited to share our study investigating the impact of SARS-CoV-2 infection
     Figure from the paper showing the proportion of participants scoring above the clinical cut-offs on BRIEF-A.
 </div>
 
-This study is a part of a [PhD project](https://www-sciencedirect-com.ezproxy.uio.no/science/article/pii/S1551714422002816), where we examine the effect of cognitive rehabilitation for long-COVID.
+This study is a part of a [PhD project](https://www.sciencedirect.com/science/article/pii/S1551714422002816), where we examine the effect of cognitive rehabilitation for long-COVID.
 
 #### Abstract
 
