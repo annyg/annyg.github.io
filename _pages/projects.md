@@ -1,13 +1,13 @@
 ---
 layout: page
-title: projects and consulting
-subtitle: An overview of various project I am involved in.
+title: projects
+subtitle: An overview of various academic projects I am involved in.
 use-site-title: true
 permalink: /projects/
-description: An overview of various project I am involved in.
+description: An overview of various academic projects I am involved in.
 nav: true
 nav_order: 3
-display_categories: [academic, ANYthings]
+display_categories: [academic]
 horizontal: false
 ---
 
