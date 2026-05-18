@@ -45,9 +45,7 @@
     <!-- Index grid -->
     <div class="row">
       {% assign idx = site.data.scholar_metrics.indexes %}
-      {% assign items = 'h_index|h-index,g_index|g-index,hc_index|hc-index,hI_index|hI-index,hI_norm|hI-norm,AWCR|AWCR,AW_index|AW-index,AWCRpA|AWCR/pA,e_index|e-index,hm_index|hm-index'
-        | split: ','
-      %}
+      {% assign items = 'h_index|h-index,g_index|g-index,hI_norm|hI-norm,AWCRpA|AWCR/pA' | split: ',' %}
       {% for it in items %}
         {% assign pair = it | split: '|' %}
         {% assign key = pair[0] %}
